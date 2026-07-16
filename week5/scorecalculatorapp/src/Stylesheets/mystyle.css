@@ -1,0 +1,28 @@
+.scorecard {
+    background-color: #f4f7f6;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scorecard h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.score-details {
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-left: 20%;
+}
+
+.emphasized {
+    font-weight: bold;
+    color: #e74c3c;
+}

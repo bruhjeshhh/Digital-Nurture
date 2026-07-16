@@ -1,0 +1,29 @@
+/* Step 6: Define localized box container layouts */
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    vertical-align: top;
+    background-color: #fafafa;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Step 7: Define css style for html <dt> element using tag selector */
+.box dt {
+    font-weight: 500;
+    color: #555555;
+    margin-top: 5px;
+}
+
+.box dd {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    color: #222222;
+}
